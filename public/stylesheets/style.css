@@ -1,0 +1,428 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3343697, 2017-02-12T18:27:11-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed ../webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: 1786GLCFournierNormal by GLC
+ * URL: http://www.myfonts.com/fonts/glc/1786-glc-fournier/normal/
+ * Copyright: Copyright (c) 2009 by Gilles Le Corre. All rights reserved.
+ *
+ * Webfont: 1786GLCFournierItalic by GLC
+ * URL: http://www.myfonts.com/fonts/glc/1786-glc-fournier/italic/
+ * Copyright: Copyright (c) 2009 by Gilles Le Corre. All rights reserved.
+ *
+ * Webfont: BornholmSandvig by Trine Rask
+ * URL: http://www.myfonts.com/fonts/trinerask/bornholm-sandvig/regular/
+ * Copyright: Copyright (c) 2012 by Trine Rask. All rights reserved.
+ *
+ * Webfont: Trenda-Regular by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/trenda/regular/
+ * Copyright: Copyright &#x00A9; 2016 by Daniel Hernandez &amp; Paula Nazal. All rights reserved.
+ *
+ * Webfont: Trenda-RegularIt by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/trenda/regular-italic/
+ * Copyright: Copyright &#x00A9; 2016 by Daniel Hernandez &amp; Paula Nazal. All rights reserved.
+ *
+ * Webfont: Trenda-Semibold by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/trenda/semibold/
+ * Copyright: Copyright &#x00A9; 2016 by Daniel Hernandez &amp; Paula Nazal. All rights reserved.
+ *
+ * Webfont: Trenda-SemiboldIt by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/trenda/semibold-italic/
+ * Copyright: Copyright &#x00A9; 2016 by Daniel Hernandez &amp; Paula Nazal. All rights reserved.
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3343697
+ * Licensed pageviews: 10,000
+ *
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/330557");
+
+
+@font-face {font-family: 'GLCFournierNormal1786';src: url('../webfonts/330557_0_0.eot');src: url('../webfonts/330557_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/330557_0_0.woff2') format('woff2'),url('../webfonts/330557_0_0.woff') format('woff'),url('../webfonts/330557_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'GLCFournierItalic1786';src: url('../webfonts/330557_1_0.eot');src: url('../webfonts/330557_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/330557_1_0.woff2') format('woff2'),url('../webfonts/330557_1_0.woff') format('woff'),url('../webfonts/330557_1_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Saltpetre';src: url('../webfonts/330557_2_0.eot');src: url('../webfonts/330557_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/330557_2_0.woff2') format('woff2'),url('../webfonts/330557_2_0.woff') format('woff'),url('../webfonts/330557_2_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Trenda-Regular';src: url('../webfonts/330557_3_0.eot');src: url('../webfonts/330557_3_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/330557_3_0.woff2') format('woff2'),url('../webfonts/330557_3_0.woff') format('woff'),url('../webfonts/330557_3_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Trenda-RegularIt';src: url('../webfonts/330557_4_0.eot');src: url('../webfonts/330557_4_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/330557_4_0.woff2') format('woff2'),url('../webfonts/330557_4_0.woff') format('woff'),url('../webfonts/330557_4_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Trenda-Semibold';src: url('../webfonts/330557_5_0.eot');src: url('../webfonts/330557_5_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/330557_5_0.woff2') format('woff2'),url('../webfonts/330557_5_0.woff') format('woff'),url('../webfonts/330557_5_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Trenda-SemiboldIt';src: url('../webfonts/330557_6_0.eot');src: url('../webfonts/330557_6_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/330557_6_0.woff2') format('woff2'),url('../webfonts/330557_6_0.woff') format('woff'),url('../webfonts/330557_6_0.ttf') format('truetype');}
+
+
+/* web fonts above, basic useage below */
+
+.GLCFournierNormal1786 {
+	font-family: GLCFournierNormal1786;
+	font-weight: normal;
+	font-style: normal;
+}
+.GLCFournierItalic1786 {
+	font-family: GLCFournierItalic1786;
+	font-weight: normal;
+	font-style: normal;
+}
+.Saltpetre {
+	font-family: Saltpetre;
+	font-weight: normal;
+	font-style: normal;
+}
+.Trenda-Regular {
+	font-family: Trenda-Regular;
+	font-weight: normal;
+	font-style: normal;
+}
+.Trenda-RegularIt {
+	font-family: Trenda-RegularIt;
+	font-weight: normal;
+	font-style: normal;
+}
+.Trenda-Semibold {
+	font-family: Trenda-Semibold;
+	font-weight: normal;
+	font-style: normal;
+}
+.Trenda-SemiboldIt {
+	font-family: Trenda-SemiboldIt;
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* The animation code */
+@keyframes bk-over{
+    0%   {opacity: 0;}
+    50%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes bk-on{
+    0%   {opacity: 0;}
+    100%  {opacity: 1;}
+}
+
+@keyframes bk-whale{
+    0%   {opacity: 0;}
+    50%  {opacity: .75;}
+    100%  {opacity: 1;}
+}
+
+/* The element to apply the animation to */
+.container-fluid {
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    background-color: #2a220a;
+}
+
+.fadein {
+    animation-name: bk-on;
+    animation-duration: 8s;
+}
+
+.masterWindow {
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+}
+
+#animBack {
+    width: 100%;
+    opacity: 1;
+    left: 0px;
+    top: 0px;
+    animation-name: bk-on;
+    animation-duration: 6s;
+}
+
+#animFront {
+    width: 100%;
+    opacity: 0;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    animation-name: bk-over;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+#animWhale {
+    width: 100%;
+    opacity: 0;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    animation-name: bk-whale;
+    animation-duration: 4s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+}
+
+.sidePanelL {
+	height: 100vh;
+	padding: 20px;
+	width: 15%;
+	opacity: .8;
+	position: fixed;
+	top: 0px;
+	left: -13%;
+	background-color: white;
+	transition: left 2s;
+	box-shadow: 0px 0px 10px #666666;
+}
+
+.sidePanelL:hover {
+	left: 0px;
+}
+
+.sidePanelR {
+	height: 100vh;
+	padding: 20px;
+	width: 15%;
+	top: 0px;
+	opacity: .8;
+	position: fixed;
+	right: -13%;
+	background-color: white;
+	transition: right 2s;
+	box-shadow: 0px 0px 10px #666666;
+
+}
+
+.panelsL {
+	position: fixed;
+	left: 0px;
+	padding: 0px 20px 10px 20px;
+	opacity: 1;
+}
+
+.panelsR {
+	position: fixed;
+	right: 0px;
+	padding: 0px 20px 10px 20px;
+	opacity: 1;
+}
+
+.sidePanelR:hover {
+	right: 0px;
+}
+
+.t75{
+	height: 82vh;
+	overflow: hidden;
+}
+
+.t45{
+	height: 45vh;
+	overflow: hidden;
+}
+
+.placeholder{
+	border: none;
+	margin: auto;
+	width: 100%;
+	height:350px;
+}
+
+.placeholder2{
+	border: white dashed .5px;
+	margin: auto;
+	width: 100%;
+	height:380px;
+}
+
+.tickDates{
+	font-family: Saltpetre;
+	font-size: 10;
+	text-anchor: middle;
+}
+
+body {
+	font-family: Trenda-Regular;
+	color: #2a220a;
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Saltpetre;
+	font-weight: normal;
+	font-style: normal;
+	color: #2a220a;
+}
+
+p {
+	text-align: : left;
+}
+
+a {
+	color:#2a220a;
+}
+
+a:hover {
+	color:#4d7a7a;
+}
+
+
+.maintitle {
+	font-size: 3.6em;
+}
+
+.xL {
+	font-size: 4em;
+}
+
+.sButtons {
+	font-size: .75em;
+}
+
+.p20 {
+	padding-top:20px;
+}
+
+.p30 {
+	padding-top:30px;
+}
+
+.p40 {
+	padding-top:40px;
+}
+
+.p50 {
+	padding-top:50px;
+}
+
+.p60 {
+	padding-top:60px;
+}
+
+.p80 {
+	padding-top:80px;
+}
+
+.p100 {
+	padding-top:100px;
+}
+
+.aqua {
+	color:#4d7a7a;
+}
+
+.aquaL {
+	color:#a5cdce;
+}
+
+.blackB {
+	background-color:#2a220a;
+}
+
+.white {
+	color:#ffffff;
+}
+
+.closerB {
+	margin:0px;
+}
+
+.closerT {
+	margin-top:10px;
+	margin-bottom:5px;
+}
+
+.summary {
+}
+
+#intro {
+	height: 5vh;
+	padding: 0 20px 20px 20px;
+	border-radius: 8px;
+	opacity: .8;
+	background-color: white;
+	transition: height 2s;
+	box-shadow: 0px 0px 10px #666666;
+	overflow: hidden;
+}
+
+#intro:hover {
+	height: 60vh;
+}
+
+.subtitle {
+	font-size: 1.25em;
+	letter-spacing: 2px;
+	opacity: .8;
+}
+
+select {
+		border-style: none;
+	background-color: none;
+}
+
+.voyageSelect {
+	width: 30%;
+	font-size: 1.25em;
+	text-align: center;
+	font-family: Trenda-Regular;
+	border-style: none;
+	background-color: none;
+}
+
+.buttonSelect {
+	padding-top:10px;
+	font-size: 1em;
+	background-color: #cbded8;
+	border-color: #cbded8;
+	text-align: center;
+	font-family: Saltpetre ;
+}
+
+li{
+	line-height: 1.25em;
+}
+
+.liSp{
+	font-size: .85em;
+	padding-bottom: 5px;
+}
+
+.contactsNames{
+	font-family: GLCFournierItalic1786;
+	font-size: .75em;
+	text-anchor: end;
+	fill: #4d7a7a;
+}
+
+.specific{
+	fill: #a5cdce;
+}
+
+.contactsNames:hover{
+	font-family: GLCFournierNormal1786;
+	font-size: 1em;
+	text-anchor: end;
+	fill: #ffffff;
+}

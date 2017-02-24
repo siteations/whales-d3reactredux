@@ -1,0 +1,385 @@
+Place,latitude,longitude,name,desc
+Aitutaki,-18.8579523,-159.7852843,Aitutaki,Aitutaki Cook Islands
+Aitutaki Atoll,-18.8579523,-159.7852843,Aitutaki Atoll,Aitutaki Cook Islands
+Amahona Island,-17.533333,-149.833333,Mo'orea Island (Aimeho),Mo'orea Island (Aimeho)
+Amoukhta Island,52.4881626,-171.2744513,Amoukhta Island,Amukta Island Alaska USA
+Amsterdam Island,-37.8331705,77.5504779,Amsterdam Island,Île Amsterdam
+Amukta Pass,52.4881626,-171.2744513,Amukta Pass,Amukta Island Alaska USA
+Anadyr Sea,66,-179.25,Anadyr Sea Bay Berring Sea,Anadyr Sea Bay Berring Sea
+Anutu(?) Bay,-15.2899056,-146.786149,Arutua,Arutua French Polynesia
+Arctic Ocean,65.2481624,-60.4620976,Arctic Ocean,Arctic Ocean
+Arutua,-15.2899056,-146.786149,Arutua,Arutua French Polynesia
+Ascension,30.2017295,-90.9438468,Ascension,Ascension Parish LA USA
+Ascension Island,-7.9467166,-14.3559158,Ascension Island,Ascension Island ASCN 1ZZ Saint Helena Ascension and Tristan da Cunha
+Asia Islands,22.2627924,113.9655419,Asia Islands,Islands District Hong Kong
+Auckland,-36.8484597,174.7633315,Auckland,Auckland New Zealand
+Barren Island,12.2792303,93.8604402,Barren Island,Barren Island Andaman and Nicobar Islands
+Bay of Islands,-35.1843701,174.1646163,Bay of Islands,Bay of Islands New Zealand
+Bay of Transfiguration,54.79115,167.577575,Medny Island,Medny Island
+Bay of Wonghui,21.015278,110.386111,Bay of Donghai,Bay of Donghai
+Bayley Island (Australia),-34.9173448,150.7288238,Bayley Island (Australia),Bailey Ave Greenwell Point NSW 2540 Australia
+Benhings(?) Isle,64.266667,-173.066667,Beringovsky,Beringovsky Russia
+Bering Island,55.0078111,166.2776921,Bering Island,Bering Island Kamchatka Krai Russia 684500
+Bering Strait,65.8938131,-168.3953957,Bering Strait,Bering Strait
+Bering’s Island,55.0078111,166.2776921,Bering’s Island,Bering Island Kamchatka Krai Russia 684500
+Bermuda,32.3078,-64.7505,Bermuda,Bermuda
+Bird Island,-3.7206202,55.2052085,Bird Island,Bird Island
+Block Island,41.1616556,-71.5842643,Block Island,Block Island New Shoreham RI 02807 USA
+Bordelus(?) Island,51.908333,-177.438889,Bobrof Island,Bobrof Island
+Botel Tobago,22.05,121.533333,Orchid Island,Orchid Island
+Bourbon Island,33.4721798,-79.105155,Bourbon Island,13089 Ocean Hwy Pawleys Island SC 29585 USA
+Bowhead Island,,,,
+Bowhead Point,,,,
+Brava,14.8444438,-24.7024179,Bravo (Cape Verde),Brava Cape Verde
+Bravo (Cape Verde),14.8444438,-24.7024179,Bravo (Cape Verde),Brava Cape Verde
+Bravo Island,14.8444438,-24.7024179,Bravo (Cape Verde),Brava Cape Verde
+Bristol Bay,57.9926243,-160.6391037,Bristol Bay,Bristol Bay United States
+Buenavista,-8.9005875,159.977545,Buena Vista,Buena Vista Solomon Islands
+Bungelo Island,28.6666714,129.6198433,Bungelo Island,Bungelo Island
+Byron Bay,-28.6473671,153.601977,Byron Bay,Byron Bay NSW 2481 Australia
+Byron Island,-16.1636264,123.4467616,Byron Island,Byron Island Western Australia Australia
+Byron’s Island,-1.333333,175.983333,Byron’s Island Beru Island,Byron’s Island Beru Island
+Byron’s Island (King Mills),-1.333333,175.983333,Byron’s Island Beru Island,Byron’s Island Beru Island
+Cape Alevin,58.95,152.41667,Siglan Russia,Siglan Russia
+Cape Bering,-34.0612549,18.603825,Cape Bering,Bering Rocklands Cape Town 7798 South Africa
+Cape Blanca,42.8376089,-124.5639997,Cape Blanca,Cape Blanco Oregon 97476 USA
+Cape Bligan,59.2,152.5,Cape Bligan Russia,Cape Bligan Russia
+Cape Chaplin,64.4058333,-172.2386111,Cape Chaplin,Mys Chaplina Chukotka Autonomous Okrug Russia 689271
+Cape East,1.3273174,103.7483391,Cape East,3 International Business Park Singapore 609927
+Cape Edward,-34.0235794,18.5203448,Cape Edward,Edward Cape Town 7800 South Africa
+Cape Elizabeth,43.563696,-70.2000467,Cape Elizabeth,Cape Elizabeth ME USA
+Cape Farellones,-33.5886812,-71.7264904,Cape Farellones Chile,Cape Farellones Chile
+Cape Horn,-55.983333,-67.2666668,Cape Horn,Cape Horn Chile
+Cape Kamchatka,56.1327377,159.5314398,Cape Kamchatka,Kamchatka Peninsula Kamchatka Krai Russia 684405
+Cape Lisburne,68.8811111,-166.21,Cape Lisburne,Cape Lisburne Alaska 99766 USA
+Cape Lopatka,50.8702778,156.6641667,Cape Lopatka,Mys Lopatka Kamchatskiy kray Russia 684110
+Cape Navarin,64.8008673,-175.404309,Nunligran Russia,Nunligran Russia
+Cape North,71.1709533,25.7836598,Cape North,Nordkapp Norway
+Cape Oliven,-33.70896,19.02256,Cape Oliven,Swaelstert Road Paarl 7646 South Africa
+Cape Olivin,-33.70896,19.02256,Cape Oliven,Swaelstert Road Paarl 7646 South Africa
+Cape Pijgin,-9.466667,159.816667,Cape Pijgin Solomon Islands,Cape Pijgin Solomon Islands
+Cape Pratt,43.2162878,-70.6173671,Cape Pratt,135 Logging Rd Cape Neddick ME 03902 USA
+Cape Prince of Wales,65.5963888,-168.0847221,Cape Prince of Wales,Cape Prince of Wales Alaska 99783 USA
+Cape Serdle,65.754167,-168.920833,Little Diomede Island,Little Diomede Island
+Cape Spencer,45.198594,-65.909831,Cape Spencer,Cape Spencer NB E2J Canada
+Cape St. John,50,-55.510556,Cape St. John,Cape St. John NS CA
+Cape St. Lucas,22.8905327,-109.9167371,Cape St. Lucas,Cabo San Lucas Baja California Sur Mexico
+Cape St. Thaddeus,-33.9326019,18.6803019,Cape St. Thaddeus,Unit 20 Gerryts St Kuils River Cape Town 7680 South Africa
+Cape St. Thomas,18.3380965,-64.8940946,Cape St. Thomas,St Thomas 00802 USVI
+Cape Thaddeus,62.666667,179.616667,Cape Thaddeus Russia,Cape Thaddeus Russia
+Cape Verde,15.120142,-23.6051868,Cape Verde,Cape Verde
+Cape Verde Island,16.7266152,-22.9297109,Cape Verde Island,Sal Cape Verde
+Cape of Good Hope,-34.3568425,18.4739882,Cape of Good Hope,Cape of Good Hope Cape Point Rd Cape Town 8001 South Africa
+Carlos,,,,
+Carmen Island,25.9774712,-111.1533456,Carmen Island,Isla Carmen Baja California Sur Mexico
+Caroline Island,-9.9137537,-150.2038389,Caroline Island,Caroline Island French Polynesia
+Ceralbo,24.221389,-109.870556,Ceralbo Baja Mexico,Ceralbo Baja Mexico
+Ceres Island,-51.86787,-74.01194,Ceres Island Chile,Ceres Island Chile
+Cerros Island,28.1901766,-115.2126293,Cerros Island,Isla Cedros Baja California Mexico
+Chatham Island,-43.9120964,-176.5433025,Chatham Island,Chatham Islands New Zealand
+Christina’s Island,-64.8,-64.0355217,Christine Island Antarctica,Christine Island Antarctica
+Christmas Island,-10.447525,105.690449,Christmas Island,6798 Christmas Island
+Chriswells Islands,38.9459495,-76.559837,Chriswells Islands,Solomons Island
+Coast of Africa,7.539989,-5.54708,Coast of Africa,Côte d'Ivoire
+Coast of Kamchatka,56.1327407,159.5292458,Coast of Kamchatka,Coast of Kamchatka
+Concepcion Point,34.4485977,-120.4715514,Concepcion Point,Point Conception California 93436 USA
+Cooper’s Island,18.3847054,-64.5127273,Cooper’s Island,British Virgin Islands
+Copper Island,46.3179962,-83.9678805,Copper Island,Copper Island St. Joseph ON Canada
+Cross Sound,58.177778,-136.51,Cross Sound AK,Cross Sound AK
+Crown Island,,,,
+Crozete Islands,-46.2141697,51.2485294,Crozete Islands,Iles Crozet
+Dagelet Island,37.5063677,130.8571536,Dagelet Island,Dagelet Island
+Dagettoo Island,37.5063677,130.8571536,Dagelet Island,Dagelet Island
+De la Mocha (Chile),-36.833333,-72.1,De la Mocha (Chile),La Mocha San Ignacio Región del Bío Bío Chile
+Deans Islans,35.4284172,-90.041201,Deans Islans,Deans Island Golden Lake Township AR 72350 USA
+Dec 14 1850 p. 85 Macauley Island New Zealand,-30.2332381,-178.428272,Macauley Island,Macauley Island New Zealand
+Diamond Bay,-38.3542396,140.2599624,Diamond Bay,Diamond Bay Victoria Aus
+Diamond Head,21.2637984,-157.8040943,Diamond Head,Diamond Head State Monument Honolulu HI 96815 USA
+Diego Ramires,-56.4898263,-68.7236854,Diego Ramires,Diego Ramírez Islands
+Diego Ramirez,-56.4898263,-68.7236854,Diego Ramirez,Diego Ramírez Islands
+Diegos,19.3458826,-98.9953095,Diegos,Diegos San Miguel Teotongo 09630 Ciudad de México CDMX Mexico
+Diomede Island,65.7823,-168.9761,Diomede Island,Diomede Islands
+Diomede Islands,65.7823,-168.9761,Diomede Islands,Diomede Islands
+Diomedes,26.0402462,-98.3002749,Diomedes,Diomedes Jacinto López III 88757 Reynosa Tamps. Mexico
+Diomedes Island,65.7823,-168.9761,Diomedes Island,Diomede Islands
+Diomedes Islands,65.7823,-168.9761,Diomedes Islands,Diomede Islands
+Dominica,15.414999,-61.370976,Dominica,Dominica
+Doubtful Island Bay,-34.3750972,119.6071724,Doubtful Island Bay,Doubtful Islands Western Australia Australia
+Drummond Island,46.0200211,-83.7311138,Drummond Island,Drummond MI 49726 USA
+Drummonds Islan,46.0200211,-83.7311138,Drummonds Islan,Drummond MI 49726 USA
+Drummond’s Island,46.0200211,-83.7311138,Drummond’s Island,Drummond MI 49726 USA
+Eagle Point,-43.0104107,147.8431827,Eagle Point Tasmania,Eagle Point Tasmania
+East Cape,-38.662334,178.017649,East Cape,Gisborne New Zealand
+Elbow Island,26.52594,-76.9686267,Elbow Island,Elbow Cay The Bahamas
+Enderbury Island,-3.1272412,-171.0837442,Enderbury Island,Enderbury Island Kiribati
+F?sus?sima Islands,34.777857,131.147985,Mishima Japan,Mishima Japan
+Faial,38.5912552,-28.6964752,Faial,Faial Island 9900 Portugal
+Faial Island,38.5912552,-28.6964752,Faial Island,Faial Island 9900 Portugal
+Fairway Rock,65.6241371,-168.7396001,Fairway Rock,Fairway Rock
+Falkland Islands,-51.796253,-59.523613,Falkland Islands,FIQQ 1ZZ Falkland Islands (Islas Malvinas)
+Fayal,38.5912552,-28.6964752,Fayal,Faial Island 9900 Portugal
+Fayal & Pico (Azores),38.4580494,-28.3228165,Fayal & Pico (Azores),Pico Island Portugal
+Felixstav,51.961726,1.351255,Felixstav,Felixstowe UK
+Flores,-34.6374837,-58.4601452,Flores,Flores CABA Argentina
+Flores & “Habo” (Azores),-34.6374837,-58.4601452,Flores & “Habo” (Azores),Flores & “Habo” (Azores)
+Fogo Island,49.6498706,-54.1597515,Fogo Island,Fogo Island Region NL Canada
+Fogo and Brava,14.8444438,-24.7024179,Fogo and Brava,Brava Cape Verde
+Fogo and Brava,14.8444438,-24.7024179,Fogo and Brava,Brava Cape Verde
+ Cape Verde,15.120142,-23.6051868,Cape Verde,Cape Verde
+Fox Islands,53.6229253,-166.9730322,Fox Islands,Fox Islands Alaska USA
+Francis Island,-67.6322712,-64.7457443,Francis Island,Francis Island Antarctica
+French Rock,-15.85,-148.25,Makatea Fr Polonysia,Makatea Fr Polonysia
+French Rock p. 225,-15.85,-148.25,Makatea Fr Polonysia,Makatea Fr Polonysia
+Friendly Islands (Tonga),-20.0073435,-174.6533134,Friendly Islands (Tonga),Tonga Islands Tonga
+Galapagos Islands,-0.9537691,-90.9656019,Galapagos Islands,Galápagos Islands Ecuador
+Galapagos Islands,-0.9537691,-90.9656019,Galapagos Islands,Galápagos Islands Ecuador
+Gillolo Island,1.3121235,128.4849923,Gillolo Island,Halmahera North Maluku Indonesia
+Goat Island,-36.409791,174.85791,Goat Island New Zealand,Goat Island New Zealand
+Gore Island,14.6678596,-17.3989282,Gore Island,Gorée Dakar Senegal
+Gores Island,14.6678596,-17.3989282,Gore Island,Gorée Dakar Senegal
+Graciosa Island,39.0524827,-28.0068979,Graciosa Island,Graciosa 9880 Portugal
+Guadaloupe Island,29.0525203,-118.2760503,Guadaloupe Island,Guadalupe Island Baja California Mexico
+Guadalupe,16.265,-61.551,Guadalupe,Guadeloupe
+Guam,13.444304,144.793731,Guam,Guam
+Gulf of Saghalin (Sakhalin),53.7951977,141.4453899,Gulf of Saghalin (Sakhalin),Sakhalinskiy zal. Russia
+HJummock Island,41.117528,-73.34069,HJummock Island,100 Compo Mill Cv Westport CT 06880 United States
+Hakodaddi Harbor,41.7687933,140.7288103,Hakodate Harbor,Hakodate Harbor
+Hakodate,41.7687933,140.7288103,Hakodate,Hakodate Hokkaido Prefecture Japan
+Harbour Island,25.50011,-76.6340511,Harbour Island,Harbor Island The Bahamas
+Hawaii,19.8967662,-155.5827818,Hawaii,Hawaii USA
+Hero Bay,,,,
+Hilo,19.7070942,-155.0884869,Hilo,Hilo HI 96720 USA
+Hog Island,-42.94,147.65,Hog Island Tasmania,Hog Island Tasmania
+Hong Kong,22.396428,114.109497,Hong Kong,Hong Kong
+Honolulu,21.3069444,-157.8583333,Honolulu,Honolulu HI USA
+Hood’s Island,-1.3758424,-89.6722171,Hood’s Island,Española Island Ecuador
+Hope Island,-27.8669,153.362,Hope Island,Hope Island QLD 4212 Australia
+Huafo,-33.3744115,-70.6729764,Huafo,Huafo Conchalí Región Metropolitana Chile
+Icy Cape,70.3297222,-161.8741667,Icy Cape,Icy Cape Alaska USA
+Indian Ocean p. 29-33,,,,
+Indian Point,,,,
+Island of,,,,
+Island of ?rustine,-37.116048,-12.3541879,Tristan da Cunha,Tristan da Cunha
+Island of Antone,17.07,-25.171,Santo Antao Cape Verde,Santo Antao Cape Verde
+Island of Desolation,-62.45775,-60.34675,Island of Desolation,Desolation Island Antarctica
+Island of Juan Fernando,-33.7744303,-80.7768613,Island of Juan Fernando,Juan Fernández Región de Valparaíso Chile
+Island of Matin Vas,-20.4751677,-28.852398,Island of Matin Vas,Martim Vaz Brazil
+Island of Rotuma(?),-12.5025069,177.0724164,Island of Rotuma Fiji,Island of Rotuma Fiji
+Island of St Lawrence,63.326105,-170.0183821,Island of St Lawrence,St Lawrence Island Alaska USA
+Island of St. Matthew,60.4195763,-172.7448382,Island of St. Matthew,St Matthew Island Alaska USA
+Island of St. Paul/Amsterdam Island,-37.8331705,77.5504779,Island of St. Paul/Amsterdam Island,Île Amsterdam
+Island of Tehegoula,,,,
+Island of “Whytootucke”,,,,
+Isle of Bouno(?),,,,
+Isle of Brustean de Cana(?),-37.116048,-12.3541879,Tristan da Cunha,Tristan da Cunha
+Isle of Flores,-8.6573819,121.0793705,Isle of Flores,Flores East Nusa Tenggara Indonesia
+Isle of Inaccessible,-37.3003564,-12.6733009,Isle of Inaccessible,Inaccessible Island Saint Helena Ascension and Tristan da Cunha
+Jamsk Gulf,59.5676375,150.7510764,Magadan Russia,Magadan Russia
+Jan 20 p. 107 Bay of Wonghui,21.015278,110.386111,Bay of Donghai,Bay of Donghai
+ Jan 03 1853 p. 104 Ototake Island,-18.85,-159.79,Aitutaki Cook Islands,Aitutaki Cook Islands
+Japan,36.204824,138.252924,Japan,Japan
+Japan Islands,26.5,128,Japan Islands,Ryukyu Islands Japan
+Japan Sea,38.848848,135,Japan Sea,Sea of Japan (also known as the East Sea)
+Japan whaling grounds,38.848848,135,Japan Sea,Sea of Japan (also known as the East Sea)
+Java,6.229385,106.6890876,Java,Java Indonesia
+Jonas (Iony) Island,56.4097,143.3815,Jonas (Iony) Island,Iony Island Russia
+Jonas Island,56.4097,143.3815,Jonas (Iony) Island,Iony Island Russia
+Juan Fernandez,-33.7744303,-80.7768613,Juan Fernandez,Juan Fernández Región de Valparaíso Chile
+Juan Fernandez Island,-33.7744303,-80.7768613,Juan Fernandez Island,Juan Fernández Región de Valparaíso Chile
+Juan Fernandez Islands,-33.7744303,-80.7768613,Juan Fernandez Islands,Juan Fernández Región de Valparaíso Chile
+Kamchatka,56.1327377,159.5314398,Kamchatka,Kamchatka Peninsula Kamchatka Krai Russia 684405
+Kamchatka Peninsula,56.1327377,159.5314398,Kamchatka Peninsula,Kamchatka Peninsula Kamchatka Krai Russia 684405
+Kamchatka Sea,56.1327377,159.5314398,Kamchatka Sea,Kamchatka Peninsula Kamchatka Krai Russia 684405
+Kanagawa Harobor,35.4956645,139.7568528,Kanagawa Harobor,80 Higashiogishima Kawasaki Ward Kawasaki Kanagawa Prefecture 210-0869 Japan
+Kayes Island,43.8045172,-66.077983,Kayes Island,Kayes Island Yarmouth NS B0W Canada
+Keyes Island,43.8045172,-66.077983,Kayes Island,Kayes Island Yarmouth NS B0W Canada
+Ki Isle,-4.4531479,-171.2449677,Ki Isle,Phoenix Islands Kiribati
+King George Island,-61.988194,-58.0196041,King George Island,King George Island Antarctica
+King George’s Island,-61.988194,-58.0196041,King George’s Island,King George Island Antarctica
+King George’s Sound,-35.0458333,117.9733333,King George’s Sound,King George Sound Western Australia Australia
+Kings Island,-14.096,144.333,Kings Island,Kings Island Dr Queensland Australia
+King’s Island,-14.096,144.333,King’s Island,Kings Island Dr Queensland Australia
+Kodiak Island,57.4912463,-153.495022,Kodiak Island,Kodiak Island Alaska USA
+Korea,35.907757,127.766922,Korea,South Korea
+Ladrone Islands,16.616667,145.616667,Ladrone Islands,Mariana Islands CNMI
+Lagelia(?) Bay,,,,
+Lahaina,20.8783333,-156.6825,Lahaina,Lahaina HI USA
+Leguam Island,6.9316746,-58.4059227,Leguam Island,Leguan Island Guyana
+Leschenault,-33.245,115.735,Leschenault,Leschenault WA 6233 Australia
+Long Island,,,,
+Loo Choo Islands,,,,
+Loochow Island,,,,
+Macauley Island,-30.2332381,-178.428272,Macauley Island,Macauley Island New Zealand
+Madagascar,-18.766947,46.869107,Madagascar,Madagascar
+Magdalena Bay,24.583333,-112,Magdalena Bay,Magdalena Bay Baja California Sur Mexico
+Magdalena Harbor,11.2416507,-74.2175657,Magdalena Harbor,Santa Marta Magdalena Colombia
+Magdalena Island,-52.9191848,-70.5776945,Magdalena Island,Magdalena Island Magallanes y la Antártica Chilena Region Chile
+Makanrushi Island,49.7741667,154.4386111,Makanrushi Island,Makanrushi Sakhalin Oblast Russia 694550
+Mangaia Island,-21.9352313,-157.9165934,Mangaia Island,Mangaia Cook Islands
+Marcon Island,25.9397412,-81.7075355,Marcon Island,Marco Island FL 34145 USA
+Marcus Bay,44.4845464,-88.0621855,Marcus Bay,Bay Park Square 755 Willard Dr Ashwaubenon WI 54304 United States
+Maria Island,-42.6451462,148.0649697,Maria Island,Maria Island Tasmania 7190 Australia
+Maria Islands,-42.6451462,148.0649697,Maria Islands,Maria Island Tasmania 7190 Australia
+Marquesas Island,-9.7812162,-139.0817124,Marquesas Island,Marquesas Islands French Polynesia
+Marquesas Islands,-9.7812162,-139.0817124,Marquesas Islands,Marquesas Islands French Polynesia
+Martin Vas Rocks,,,,
+Masafuera,-33.7760908,-80.7990185,Masafuera,Isla Alejandro Selkirk Juan Fernández Región de Valparaíso Chile
+Masafuero,-33.7760908,-80.7990185,Masafuero,Isla Alejandro Selkirk Juan Fernández Región de Valparaíso Chile
+Matalata(?) Islands,48.1,153.2,Matua,Matua
+Mataua,48.1,153.2,Matua,Matua
+Maui,20.7983626,-156.3319253,Maui,Maui Hawaii USA
+Maujiers (Society Islands),-17.533333,-149.833333,Mo'orea,Mo'orea
+May Island,,,,
+Mayo,,,,
+Mercury Bay,-36.8081855,175.7410262,Mercury Bay,Mercury Bay New Zealand
+Merican(?) Island,,,,
+Michael’s Island,,,,
+Mocha,,,,
+Molokoi,21.1443935,-157.0226297,Molokoi,Moloka‘i Hawaii USA
+Molokui,21.1443935,-157.0226297,Molokui,Moloka‘i Hawaii USA
+Mongamee Harbor,,,,
+Mongami Harbor,,,,
+Montague Island,60.0377971,-147.4782755,Montague Island,Montague Island Alaska USA
+Morotoai,2.3656672,128.4008357,Morotoai,Morotai Island Morotai Island Regency North Maluku Indonesia
+Motcha,,,,
+Motikil Island,,,,
+Mount St. Thaddeus,,,,
+Mt. St. Elias,60.2933333,-140.9294444,Mt. St. Elias,Mt St Elias
+New Bay,,,,
+New Holland,,,,
+New Island,,,,
+New Zealand,-40.900557,174.885971,New Zealand,New Zealand
+Niphon (Japan),36.204824,138.252924,Niphon (Japan),Japan
+Nippon,36.204824,138.252924,Nippon,Japan
+Northeast coast of Asia,,,,
+Northern shore of America,,,,
+Oahu,21.4389123,-158.0000565,Oahu,O‘ahu Hawaii USA
+Oahu 5 p. 56,21.4389123,-158.0000565,Oahu 5 p. 56,56 Oahu Rd Hartsel CO 80449 USA
+Ocean High Island,-0.8577652,169.5322424,Ocean High Island,Ocean Island Kiribati
+Ocean Island,-0.8577652,169.5322424,Ocean Island,Ocean Island Kiribati
+Ohitahoo,,,,
+Okhotsk Islands,52.873623,149.3658173,Okhotsk Islands,Sea of Okhotsk
+Onekotan Island,49.4441667,154.7580556,Onekotan Island,Onekotan Sakhalin Oblast Russia 694550
+Oroenga (Tonga),-21.2237815,-159.7490859,Oroenga (Tonga),Oroenga Matavera District Cook Islands
+Orurute,,,,
+Ototake Island,,,,
+Ounimak Island,54.7265729,-164.2169519,Ounimak Island,Unimak Island Alaska USA
+Oura Island,,,,
+Oweroa (Mangea),,,,
+Pacific Ocean,-8.783195,-124.508523,Pacific Ocean,Pacific Ocean
+Paita,-5.0870571,-81.1008472,Paita,Paita Province Peru
+Paramouchir,50.3580556,155.7891667,Paramouchir,Paramushir Sakhalin Oblast Russia 694550
+Paramushir,50.3580556,155.7891667,Paramushir,Paramushir Sakhalin Oblast Russia 694550
+Part Pray (Cape Verde),15.120142,-23.6051868,Part Pray (Cape Verde),Part Pray (Cape Verde)
+Pedra Branca Rock,-43.85,146.97,Pedra Branca Rock,Pedra Branca Tasmania Australia
+Peel Island,-27.5005735,153.3476127,Peel Island,Peel Island QLD 4184 Australia
+Peel’s Island,-27.5005735,153.3476127,Peel’s Island,Peel Island QLD 4184 Australia
+Penny’s Island,21.3254978,-157.8887677,Penny’s Island,205 Sand Island Access Rd Honolulu HI 96819 USA
+Penryhn Island,-9.005122,-157.9762097,Penryhn Island,Penrhyn Kiribati
+Perambuco,-8.8137173,-36.954107,Perambuco,State of Pernambuco Brazil
+Pernambuco,-8.8137173,-36.954107,Pernambuco,State of Pernambuco Brazil
+Pernambuco Brazil,-8.8137173,-36.954107,Pernambuco Brazil,State of Pernambuco Brazil
+Perry’s Island,-11.969,143.254,Perry’s Island,Perry’s Island
+Pleasant Island,58.3501798,-135.6175235,Pleasant Island,Pleasant Island Alaska USA
+Plover Bay,,,,
+Point Barrow,71.3875,-156.4811111,Point Barrow,Point Barrow Alaska USA
+Point Hope,68.3477778,-166.8080556,Point Hope,Point Hope AK USA
+Port,,,,
+Port Clarence,65.2622222,-166.8458333,Port Clarence,Port Clarence AK USA
+Port William,45.0951577,-65.5333707,Port William,Port William NS CA
+Potters Bay,,,,
+Praia,14.93305,-23.5133267,Praia,Praia Cape Verde
+Praya,14.93305,-23.5133267,Praia,Praia Cape Verde
+Prince William’s Island,60.6905448,-147.0970548,Prince William’s Island,Prince William Sound Alaska USA
+Prince of Wales Island,55.7794311,-132.8179953,Prince of Wales Island,Prince of Wales Island Alaska USA
+Quelpart Island,33.3342402,126.0085494,Quelpart Island Jeju-do S Korea,Quelpart Island Jeju-do S Korea
+Raiatea Island,-16.8164132,-151.4552213,Raiatea Island,Ra'iātea French Polynesia
+Rarotonga,-21.2292371,-159.7763491,Rarotonga,Rarotonga Cook Islands
+Resolution Bay,-41.1141528,174.2171294,Resolution Bay,Resolution Bay New Zealand
+Resolution Bay/Ohitahoo,-41.1141528,174.2171294,Resolution Bay,Resolution Bay New Zealand
+River Plata,-35.1944557,-56.741207,River Plata,River Plate
+Rocky Point,,,,
+Romitura,-22.6496985,-152.8764726,Rimatara,Rimatara
+Roohooga,-16.0589671,-145.6347694,Rotoava Tahiti,Rotoava Tahiti
+Rose Island,,,,
+Rosemary Island,-20.4845854,116.5904741,Rosemary Island,Rosemary Island Dampier Archipelago WA 6713 Australia
+Rota,36.6236874,-6.3601441,Rota,11520 Rota Cádiz Spain
+Rotches Island,-44.033333, -176.433333,Chatham Islands – Rēkohu,Chatham Islands – Rēkohu
+Rotches(?) Island,-44.033333, -176.433333,Chatham Islands – Rēkohu,Chatham Islands – Rēkohu
+Round Island,,,,
+S.W. Pacific p. 71,-21.2044472,164.7276404,New Caledonia,New Caledonia
+Sado Island,38.0183525,138.368082,Sado Island,Sado Niigata Prefecture Japan
+Saint Bartholomew’s Bay,,,,
+Saint Lawrence Island,63.326105,-170.0183821,Saint Lawrence Island,St Lawrence Island Alaska USA
+Saipan,15.1515153,145.7297891,Saipan,Saipan CNMI
+Sal,60.3900183,23.1171797,Sal,Salo Finland
+Sal Island,16.7266152,-22.9297109,Sal Island,Sal Cape Verde
+San Diego,32.715738,-117.1610838,San Diego,San Diego CA USA
+San Francisco,37.7749295,-122.4194155,San Francisco,San Francisco CA USA
+San Josef Island,,,,
+Sandalwood Isle,-12.1706058,96.8066423,Cocos Islands,Cocos Islands
+Sandwich Islands,-54.429579,-36.587909,Sandwich Islands,South Georgia and the South Sandwich Islands
+Santa Catharina Brazil,-27.2423392,-50.2188556,Santa Catharina Brazil,State of Santa Catarina Brazil
+Savage Island,46.5481845,-119.2991874,Savage Island,Savage Island Washington 99343 USA
+Sea of Kamchatka,56.1327377,159.5314398,Sea of Kamchatka,Kamchatka Peninsula Kamchatka Krai Russia 684405
+Seal Island,-34.1373395,18.5824944,Seal Island,Seal Island South Africa
+Shanta Islands,54.9333361,137.497806,Shanta Islands Russia,Shanta Islands Russia
+Shanter Bay,-40.9956663,147.0760302,Shanter Bay,Tam O'Shanter Bay Tasmania Australia
+Shanter Islands,55,137.6,Shanter Islands,Shantarskiye Ostrova Khabarovskiy kray Russia 682564
+Siden??? Island,,,,
+Sidney Island,48.6003054,-123.290831,Sidney Island,Sidney Island Southern Gulf Islands BC Canada
+Smith’s Island,,,,
+St Matthews Island,60.4195763,-172.7448382,St Matthews Island,St Matthew Island Alaska USA
+St Matthew’s Island,60.4195763,-172.7448382,St Matthew’s Island,St Matthew Island Alaska USA
+St. Antone Island,,,,
+St. Carlos (Chile),-36.42615,-71.9708343,St. Carlos (Chile),San Carlos Bío Bío Region Chile
+St. Clemente,33.4269728,-117.6119925,St. Clemente,San Clemente CA USA
+St. Felix Island,-26.2914678,-80.0953942,St. Felix Island,Isla San Félix Región de Valparaíso Chile
+St. George’s Island,,,,
+St. Ignacio Island,19.2770543,-81.3854242,St. Ignacio Island,597 Walkers Rd George Town Cayman Islands
+St. Jacques (Cape Verde),15.066667,-23.633333,St. Jacques Santiago (Cape Verde),St. Jacques Santiago (Cape Verde)
+St. Jago,15.066667,-23.633333,St. Jacques Santiago (Cape Verde),St. Jacques Santiago (Cape Verde)
+St. Lago(?) Island,15.066667,-23.633333,St. Jacques Santiago (Cape Verde),St. Jacques Santiago (Cape Verde)
+St. Lawrence Bay,46.8463459,-64.21311,St. Lawrence Cape,Saint Lawrence PE C0B Canada
+St. Lawrence Cape,46.8463459,-64.21311,St. Lawrence Cape,Saint Lawrence PE C0B Canada
+St. Lawrence Island,63.326105,-170.0183821,St. Lawrence Island,St Lawrence Island Alaska USA
+St. Lawrence’s Island,63.326105,-170.0183821,St. Lawrence’s Island,St Lawrence Island Alaska USA
+St. Lorenzo,-12.0863918,-77.255244,St. Lorenzo Peru,St. Lorenzo Peru
+St. Matthew’s Island,60.4195763,-172.7448382,St. Matthew’s Island,St Matthew Island Alaska USA
+St. Nicholas Island,33.2464523,-119.4991693,St. Nicholas Island,San Nicolas Island California 93042 USA
+St. Pauls Amsterdam Island,57.1866718,-170.2574745,St. Pauls Amsterdam Island,Saint Paul Island St Paul AK USA
+St. Paul’s Island,57.1866718,-170.2574745,St. Paul’s Island,Saint Paul Island St Paul AK USA
+Starbuck Island,-5.6436194,-155.8857921,Starbuck Island,Starbuck Island Kiribati
+Staten Island (Isla de los Estados) Argentina,-54.8001375,-64.4275752,Staten Island (Isla de los Estados) Argentina,Isla de los Estados Argentina
+Stewart’s Island,-46.9972767,167.8372114,Stewart’s Island,Stewart Island / Rakiura Southland 9818 New Zealand
+Strait of Le Maire,-54.833333,-64.916667,Strait of Le Maire,Le Maire Strait Argentina
+Strait of Sunda,-5.920556,105.885833,Strait of Sunda,Sunda Strait Indonesia
+Straits of Korea,34.3333333,128.2127279,Straits of Korea,Straits of Korea
+Strong’s Island,49.482664,-54.784879,Strong’s Island,Strong's Island Summerford NL A0G Canada
+Sulner(?) Island,,,,
+Sunday Island,48.3743658,-122.5848336,Sunday Island,Sunday Dr Oak Harbor WA 98277 USA
+Tahiti,-17.6509195,-149.4260421,Tahiti,Tahiti French Polynesia
+Tahkinsh Island,52.1852778,-174.1608333,Taagan'gisix AK,Taagan'gisix AK
+Tailors Bay,-7.4783777,178.6623714,Tuvalu,Tuvalu
+Talcahuano,-36.7247834,-73.1169808,Talcahuano,Talcahuano Bío Bío Region Chile
+Terceira,38.7216415,-27.2205771,Terceira,Terceira Island Portugal
+Terceria Island,38.7216415,-27.2205771,Terceria Island,Terceira Island Portugal
+Three Kings Island,-34.1599892,172.1002487,Three Kings Island,Three Kings Islands New Zealand
+Tierra Del Fuego,-54,-70,Tierra Del Fuego,Tierra del Fuego Magallanes y la Antártica Chilena Region Chile
+Tigalda Island,54.0877196,-165.0782105,Tigalda Island,Tigalda Island Alaska USA
+Timo-shee Island,37.241667,131.866667,Takeshima Island Japan,Takeshima Island Japan
+Tinian Island,15.0043455,145.6356577,Tinian Island,Tinian CNMI
+Trinidad,10.691803,-61.222503,Trinidad,Trinidad and Tobago
+Tristan Da Cunha Island,-37.1052489,-12.2776838,Tristan Da Cunha Island,Tristan da Cunha TDCU 1ZZ Saint Helena Ascension and Tristan da Cunha
+Tristan da Cunha,-37.1052489,-12.2776838,Tristan da Cunha,Tristan da Cunha TDCU 1ZZ Saint Helena Ascension and Tristan da Cunha
+Tumbes,-3.5564921,-80.4270885,Tumbes,Tumbes Peru
+Turtle Bay,21.701667,-158.001667,Turtle Bay Oahu,Turtle Bay Oahu
+Unimak Island,54.7265729,-164.2169519,Unimak Island,Unimak Island Alaska USA
+Valparaiso,-33.0506309,-71.6461539,Valparaiso Chile,Valparaiso Chile
+Vonalashka Island,53.5828282,-166.8882779,Vonalashka Island,Unalaska Island Alaska USA
+Walwich Bay,-33.840211,151.171115,Walwich Bay,2 Gale St Woolwich NSW 2110 Australia
+Wellington Island,-41.2864603,174.776236,Wellington Island,Wellington New Zealand
+Whytootake Island,-18.8579523,-159.7852843,Whytootake Island,Aitutaki Cook Islands
+Whytotau,-18.8579523,-159.7852843,Whytootake Island,Aitutaki Cook Islands
+“Chasel Islands”,,,,
+“Pendleton Island” (unfamiliar island near Rarotonga that Captain Pendleton named after himself),-21.2292371,-159.7763491,Rarotonga,Rarotonga Cook Islands

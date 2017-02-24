@@ -1,0 +1,13 @@
+.idea
+mockups
+node_modules
+npm-debug.log
+.DS_Store
+coverage
+**.mp3
+**.m4a
+**.mp4
+public/bundle.js
+public/bundle.js.map
+public/webfonts
+data/pdf
