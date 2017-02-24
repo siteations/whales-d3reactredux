@@ -32,7 +32,7 @@ export default (({type, vessel}) => {
               <div className="block-center col-lg-5 col-lg-offset-3 p20">
                 <p className="aqua GLCFournierItalic1786 closerB">{type} of Voyage</p>
                 <h3 className="closerT"><a href={vessel.linkV} target="blank">{vessel.Vessel}</a></h3>
-                <h5 className="sButtons">{vessel.Rig}, at sea from:</h5>
+                <h5 className="sButtons">{vessel.Rig}, at sea:</h5>
                 <h2 className="closerB">{vessel.Start} - {vessel.End}</h2>
                 <p className="aqua sButtons closerB">Voyage Log : {vessel.LogId}</p>
                 <p className="aqua sButtons closerB"><a href={vessel.linkV} target="blank">Volume Scans</a> : <a href={vessel.linkCR} target="blank">Computer-Readable Summary</a></p>

@@ -328,21 +328,6 @@ a:hover {
 	padding-top:100px;
 }
 
-.aqua {
-	color:#4d7a7a;
-}
-
-.aquaL {
-	color:#a5cdce;
-}
-
-.blackB {
-	background-color:#2a220a;
-}
-
-.white {
-	color:#ffffff;
-}
 
 .closerB {
 	margin:0px;
@@ -416,13 +401,55 @@ li{
 	fill: #4d7a7a;
 }
 
-.specific{
-	fill: #a5cdce;
-}
 
 .contactsNames:hover{
 	font-family: GLCFournierNormal1786;
 	font-size: 1em;
-	text-anchor: end;
 	fill: #ffffff;
+}
+
+.contactLabel{
+	font-family: GLCFournierNormal1786;
+	font-size: 1.1em;
+	fill: #ffffff;
+	text-anchor: middle;
+}
+
+.start{
+	text-anchor: start;
+	font-family: GLCFournierItalic1786;
+	font-size: 1em;
+	fill: #4d7a7a;
+}
+
+.aquaS{
+	fill: #a5cdce;
+}
+
+.specific{
+	fill: #a5cdce;
+}
+.aqua {
+	color:#4d7a7a;
+	fill:#4d7a7a;
+}
+
+.aquaL {
+	color:#a5cdce;
+	fill:#a5cdce;
+}
+
+.blackB {
+	background-color:#2a220a;
+}
+
+.white {
+	color:#ffffff;
+	fill:#ffffff;;
+}
+
+.Bars:hover{
+	stroke:#ffffff;
+	stroke-width: 3px;
+	box-shadow: 0px 0px 5px #000000;
 }

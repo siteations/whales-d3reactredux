@@ -17,7 +17,7 @@ import vesselGeoContainer from './containers/vesselGeoContainer.js';
 import vesselNetContainer from './containers/vesselNetContainer.js';
 
 //--------------------action-creators--------------------------
-import {loadVoyages, selectVoyage, detailVoyage, generalVoyage, extendVoyage, selectContacts, selectCrew, filterCrew, selectAnimals, selectAllAnimals, selectPlaces} from './action-creators/actions.js';
+import {loadVoyages, selectVoyage, detailVoyage, generalVoyage, extendVoyage, selectContacts, selectCrew, filterCrew, filterPlaces, selectAnimals, filterAnimals, selectAllAnimals, selectPlaces} from './action-creators/actions.js';
 
 
 //--------------------ON ENTER ACTIONS--------------------------
@@ -39,6 +39,7 @@ const onVesselEnter = (nextRouterState) => {
 	const sVoyage = axios.get(`/api/vessels/${voyageId}`)
 		.then(response => response.data)
 	    .then((voyage) => {
+	    	const duration =[voyage.Start, voyage.End];
 	    	voyage.LogId= voyage.LogId.replace(' ', '_');
 	      	store.dispatch(detailVoyage(voyage));
 
@@ -57,7 +58,9 @@ const onVesselEnter = (nextRouterState) => {
 				store.dispatch(filterCrew(crew));
 				store.dispatch(selectContacts(contacts));
 				store.dispatch(selectPlaces(places));
+				store.dispatch(filterPlaces(places, duration));
 				store.dispatch(selectAnimals(animals));
+				store.dispatch(filterAnimals(allanimals, duration));
 				store.dispatch(selectAllAnimals(allanimals));
 				store.dispatch(loadVoyages(voyages));
 			});

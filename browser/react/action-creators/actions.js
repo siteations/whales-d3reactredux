@@ -8,7 +8,12 @@ export const SELECT_CREW='SELECT_CREW';
 export const OTHER_CREW='OTHER_CREW';
 export const SELECT_ANIMALS='SELECT_ANIMALS';
 export const SELECT_ALL_ANIMALS='SELECT_ALL_ANIMALS';
+export const SELECT_SORT_ANIMALS='SELECT_SORT_ANIMALS';
+export const SELECT_YEAR_ANIMALS='SELECT_YEAR_ANIMALS';
+export const SELECT_MTH_ANIMALS='SELECT_MTH_ANIMALS';
 export const SELECT_PLACES='SELECT_PLACES';
+export const SELECT_YEAR_PLACES='SELECT_YEAR_PLACES';
+export const SELECT_MTH_PLACES='SELECT_MTH_PLACES';
 
 //action-creators
 export const loadVoyages = (voyages) => {
@@ -40,8 +45,8 @@ export const detailVoyage = (voyage) => {
 
 	return dispatch => {
 		dispatch(selectVoyage(voyage));
-	}
-}
+	};
+};
 
 export const generalVoyage = (general) => {
 	return {
@@ -77,12 +82,49 @@ export const selectAllAnimals = (animals) => {
 
 };
 
+export const selectSortAnimals = (animals) => {
+	return {
+		type: SELECT_SORT_ANIMALS,
+		animals
+	};
+
+};
+
+export const selectSortYrAnimals = (animals) => {
+	return {
+		type: SELECT_YEAR_ANIMALS,
+		animals
+	};
+
+};
+
+export const selectSortMthAnimals = (animals) => {
+	return {
+		type: SELECT_MTH_ANIMALS,
+		animals
+	};
+
+};
+
 export const selectPlaces = (places) => {
 	return {
 		type: SELECT_PLACES,
 		places
 	};
+};
 
+export const selectSortMthPlaces = (places) => {
+	return {
+		type: SELECT_MTH_PLACES,
+		places
+	};
+};
+
+export const selectSortYrPlaces = (places) => {
+	return {
+		type: SELECT_YEAR_PLACES,
+		places
+	};
 };
 
 export const extendVoyages = (voyagesEx) => {
@@ -109,7 +151,7 @@ export const otherCrews = (crew) => {
 
 };
 
-export const filterCrew = (crew) =>{ //filters crew into this voyage and other voyages
+export const filterCrew = (crew) => { //filters crew into this voyage and other voyages
 
 	//insert into selectCrew...
 	let currentCnt=0;
@@ -152,8 +194,93 @@ export const filterCrew = (crew) =>{ //filters crew into this voyage and other v
 		dispatch(selectCrew(crewC));
 		dispatch(otherCrews(crewOther));
 		dispatch(extendVoyages(years));
-	}
+	};
 };
+
+export const filterAnimals = ((allanimals, duration) => { //filters all selected animals into monthly sums and dates out of 365
+
+	const searchDate = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+	const years = [];
+	for (let i=duration[0]; i<=duration[1]; i++){
+		years.push(i);
+	}
+
+	var animalsSort={};
+	var animalsByYear=[];
+	var animalsByMonth=[];
+
+	years.forEach(year => {
+		animalsSort[year]=allanimals.filter(animal=>{
+			return +animal.Year === year;
+		});
+
+		let months=[];
+		for (let i=0; i<12; i++){months.push([]);}
+
+		animalsSort[year].forEach(animal=>{
+
+			for (let i=0; i<12; i++){
+				if (searchDate[i] === animal.Month){
+					animal.Date = +animal.Day+i*30;
+					months[i].push(animal);
+				}
+			}
+		});
+
+		animalsByYear.push(animalsSort[year]);
+		animalsSort[year] = months;
+		animalsByMonth = animalsByMonth.concat(months);
+	});
+
+	return dispatch => {
+		dispatch(selectSortYrAnimals(animalsByYear));
+		dispatch(selectSortMthAnimals(animalsByMonth));
+		dispatch(selectSortAnimals(animalsSort));
+	};
+});
+
+export const filterPlaces = ((allanimals, duration) => { //filters all selected animals into monthly sums and dates out of 365
+
+	const searchDate = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+	const years = [];
+	for (let i=duration[0]; i<=duration[1]; i++){
+		years.push(i);
+	}
+
+	var animalsSort={};
+	var animalsByYear=[];
+	var animalsByMonth=[];
+
+	years.forEach(year => {
+		animalsSort[year]=allanimals.filter(animal=>{
+			return +animal.Year === year;
+		});
+
+		let months=[];
+		for (let i=0; i<12; i++){months.push([]);}
+
+		animalsSort[year].forEach(animal=>{
+
+			for (let i=0; i<12; i++){
+				if (searchDate[i] === animal.Month){
+					animal.Date = +animal.Day+i*30;
+					months[i].push(animal);
+				}
+			}
+		});
+
+		animalsByYear.push(animalsSort[year]);
+		animalsSort[year] = months;
+		animalsByMonth = animalsByMonth.concat(months);
+	});
+
+	return dispatch => {
+		dispatch(selectSortYrPlaces(animalsByYear));
+		dispatch(selectSortMthPlaces(animalsByMonth));
+	};
+});
 
 //reducers
 
@@ -167,7 +294,12 @@ const initState = {
 	otherCrews : [],
 	currentAnimals : [],
 	currentAllAnimals: [],
+	currentSortYrAnimals: [],
+	currentSortMthAnimals: [],
+	currentSortAnimals: {},
 	currentPlaces : [],
+	currentSortYrPlaces: [],
+	currentSortMthPlaces: [],
 };
 
 export const vesselReducer = (prevState = initState, action) => {
@@ -211,8 +343,28 @@ export const vesselReducer = (prevState = initState, action) => {
 		newState.currentAllAnimals = action.animals;
 		break;
 
+	case SELECT_SORT_ANIMALS:
+		newState.currentSortAnimals = action.animals;
+		break;
+
+	case SELECT_YEAR_ANIMALS:
+		newState.currentSortYrAnimals = action.animals;
+		break;
+
+	case SELECT_MTH_ANIMALS:
+		newState.currentSortMthAnimals = action.animals;
+		break;
+
 	case SELECT_PLACES:
 		newState.currentPlaces = action.places;
+		break;
+
+	case SELECT_YEAR_PLACES:
+		newState.currentSortYrPlaces = action.places;
+		break;
+
+	case SELECT_MTH_PLACES:
+		newState.currentSortMthPlaces = action.places;
 		break;
 
 	default:

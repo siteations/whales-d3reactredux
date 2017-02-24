@@ -16,6 +16,8 @@ const mapStateToProps = (state => {
     currentCrew : state.currentCrew,
     currentAnimals : state.currentAnimals,
     currentPlaces : state.currentPlaces,
+    MthPlaces : state.currentSortMthPlaces,
+    MthAnimals : state.currentSortMthAnimals,
   };
 });
 
