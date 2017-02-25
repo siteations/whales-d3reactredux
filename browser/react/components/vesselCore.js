@@ -55,6 +55,9 @@ class VesselCore extends React.Component { // (props => {
 		<div className="container-fluid blackB">
 	      <img id="animBack" src="/img/vessels-bk0.jpg" />
 	      <img id="animFront" src="/img/vessels-bk1.jpg" />
+	      <img id="animWhale0" src="/img/vessels-whale0.png" />
+	      <img id="animWhale1" src="/img/vessels-whale1reflect.png" />
+	      <img id="animWhale2" src="/img/vessels-whale0.png" />
 	      {/*<!--EVERYTHING ABOVE IS BACKGROUND ANIMATION, below is content that shifts...-->*/}
 	        <div className="masterWindow">
 
@@ -66,7 +69,7 @@ class VesselCore extends React.Component { // (props => {
 	            <Header type="Summary Statistics" vessel={this.props.currentVoyage}/>
 
 	        {/* summary divs - all vessel summary pages*/}
-	            <div className="row p20 aquaL fadein">
+	            <div className="row p15 aquaL fadein">
 	              <div className="block-center col-lg-4 col-lg-offset-1 text-center p20 summary">
 	                <Summary type= "contact" content={this.props.currentContacts.length}/>
 	              </div>

@@ -27,6 +27,7 @@ export default (({type, vessel}) => {
                 <h5 className="sButtons"><a href="/geographies">+ sailing geographies</a></h5>
                 <h5 className="sButtons"><a href="/ecologies">+ catch ecologies</a></h5>
                 <h5 className="sButtons"><a href="/networks">+ ship & crew networks</a></h5>
+                <h5 className="sButtons"><a href="/networks">+ api log queries</a></h5>
               </div>
 
               <div className="block-center col-lg-5 col-lg-offset-3 p20">

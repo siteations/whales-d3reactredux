@@ -16,13 +16,11 @@ const D3Default = (({stateO, stateA, methods}) => {
   stateA is added states from local events, includes:
     contactLabel
 
-  methods holds the mouseOver/Out actions
-  [0] is the contacts label
-  [1] is the contacts label off
+  methods holds the mouseOver/Out/link actions
   */
   //console.log(stateO.MthAnimals);
 
-  //add svg
+  //add svg later...
   d3.select("#core").remove(); // only one update thru store...
 
   let width = 950;
