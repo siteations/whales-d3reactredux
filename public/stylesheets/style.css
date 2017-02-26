@@ -226,6 +226,21 @@
 
 }
 
+#animWhale3 {
+    opacity: .5;
+    position: fixed;
+    width:100px;
+    left: 120%;
+    top: 80%;
+    transform: rotate(5deg);
+    animation-name: bk-whale0;
+    animation-duration: 40s;
+    animation-delay: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+
+}
+
 #animWhale2 {
     opacity: .35;
     position: fixed;
@@ -249,6 +264,21 @@
     animation-name: bk-whale1;
     animation-duration: 50s;
     animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+
+}
+
+#animWhale4 {
+    opacity: .5;
+	position: fixed;
+    width:140px;
+    right: 120%;
+    top: 80%;
+    transform: rotate(5deg);
+    animation-name: bk-whale1;
+    animation-duration: 50s;
+    animation-delay: 25s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
 
@@ -524,8 +554,20 @@ li{
 	fill:#ffffff;;
 }
 
+.ital {
+	font-family: GLCFournierItalic1786;
+}
+
 .Bars:hover{
 	stroke:#ffffff;
 	stroke-width: 3px;
 	box-shadow: 0px 0px 5px #000000;
+}
+
+.returns{
+	text-decoration: none;
+}
+
+.returns:hover{
+	text-decoration: underline;
 }
