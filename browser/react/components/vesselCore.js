@@ -14,13 +14,22 @@ import {loadVoyages, selectVoyage, generalVoyage, extendVoyage, selectContacts, 
 class VesselCore extends React.Component { // (props => {
 	constructor(props) {
     super(props);
+
     this.labelShips = this.labelShips.bind(this);
     this.unlabelShips = this.unlabelShips.bind(this);
+    this.labelSite = this.labelSite.bind(this);
+    this.unlabelSite = this.unlabelSite.bind(this);
+    this.labelSites = this.labelSites.bind(this);
+    this.unlabelSites = this.unlabelSites.bind(this);
     this.goTo = this.goTo.bind(this);
     this.goToSubpage = this.goToSubpage.bind(this);
+    this.goToSummary = this.goToSummary.bind(this);
+    this.goToDetail = this.goToDetail.bind(this);
     this.state = {
     	contactLabel : '',
     	types: 'Summary',
+    	siteLabel: {},
+    	siteLabels : [],
     };
   }
 
@@ -35,6 +44,45 @@ class VesselCore extends React.Component { // (props => {
 	    this.setState({contactLabel: '' });
 	}
 
+	labelSites(e){
+	    e.preventDefault();
+	    let placeArray = e.target.attributes.data.value.split(',');
+	    let sites=[];
+	    placeArray.forEach(place=>{
+	    	this.props.currentPlaces.forEach(site=>{
+	    		if (place === site.Place){
+	    			sites.push(site);
+	    		}
+
+	    	});
+	    });
+	    this.setState({contactLabel: e.target.attributes.value.value});
+	    this.setState({siteLabels: sites});
+	}
+
+	unlabelSites(e){
+	    e.preventDefault();
+	    this.setState({contactLabel: '' });
+	    this.setState({siteLabels: [] });
+	}
+
+	labelSite(e){
+	    e.preventDefault();
+	    //console.dir(e.target.attributes);
+	    let currentSite ={
+	    	x: e.target.attributes.cx.value,
+	    	y: e.target.attributes.cy.value,
+	    	name: e.target.attributes.value.value
+	    };
+	    //attributes.cx.value, cy.value, value.value
+	    this.setState({ siteLabel: currentSite });
+	}
+
+	unlabelSite(e){
+	    e.preventDefault();
+	    this.setState({siteLabel: {} });
+	}
+
 	goTo(e){
 		hashHistory.push(e.target.attributes.data.value);
 	}
@@ -43,8 +91,22 @@ class VesselCore extends React.Component { // (props => {
 		let dest = e.target.innerText.split(' ')[1];
 		let destination = dest[0].toUpperCase() + dest.slice(1);
 		this.setState({types: destination});
-		console.log(destination);
 		//hashHistory.push(e.target.attributes.value.value);
+	}
+
+	goToDetail(e){
+		let dest = e.target.innerText.split(' ')[1];
+		let destination = dest[0].toUpperCase() + dest.slice(1);
+		this.setState({types: destination});
+		let link = 'vessel/'+this.props.currentVoyage.id+'/'+dest;
+		hashHistory.push(link);
+	}
+
+	goToSummary(e){
+		let dest = e.target.innerText.split(' ')[1];
+		let destination = dest[0].toUpperCase() + dest.slice(1);
+		this.setState({types: destination});
+		hashHistory.push('/vessel/'+this.props.currentVoyage.id+'/summary');
 	}
 
 
@@ -73,50 +135,13 @@ class VesselCore extends React.Component { // (props => {
 
 	            <Header type={this.state.types} vessel={this.props.currentVoyage}/>
 
-	        {/* summary divs - all vessel summary pages*/}
-	        { this.state.types==='Summary' &&
-
-	        	<div>
-		            <div className="row p15 aquaL fadein">
-		              <div className="block-center col-lg-4 col-lg-offset-1 text-center p20 summary">
-		                <Summary type= "contact" content={this.props.currentContacts.length} methods={this.goToSubpage} />
-		              </div>
-
-		              <div className="block-center col-lg-2 text-center p20 summary">
-		                <Summary type= "places" content={this.props.currentPlaces.length} methods={this.goToSubpage} />
-		              </div>
-
-		              <div className="block-center col-lg-4 text-center p20 summary">
-		                <Summary type= "catch" content={captureCnt}  methods={this.goToSubpage} />
-		              </div>
-		            </div>
-
-		            <div className="row fadein p20 t45 block-center" id="d3-short">
-		              <div className="block-center col-lg-10 col-lg-offset-1">
-		              	<div className="block-center placeholder" id="d3Here">
-		                	<D3Default stateO={this.props} stateA={this.state} methods={{labelShips: this.labelShips, unlabelShips:this.unlabelShips, goTo: this.goTo }} />
-		                </div>
-		              </div>
-		            </div>
-		        </div>
-		    }
-		    { this.state.types!=='Summary' &&
+		    { (this.state.types==='Networks' && this.state.types==='Ecologies' ) &&
 
 	        	<div>
 		            <div className="row p30 aquaL fadein">
 		            	<div className="block-center col-lg-4 col-lg-offset-1 text-center p20 summary">
 		              		<h5 className="white returns closeB" onClick={e => this.goToSubpage(e)}>to summary</h5>
 		              	</div>
-		              	{ this.state.types==='Geographies' &&
-			              <span>
-			              	<div className="block-center col-lg-2 text-center p20 summary">
-			              		<h5 className="white returns closeB" onClick={e => this.goToSubpage(e)}>to networks</h5>
-			              	</div>
-			              	<div className="block-center col-lg-4 text-center p20 summary">
-			              		<h5 className="white returns closeB" onClick={e => this.goToSubpage(e)}>to ecologies</h5>
-			              	</div>
-			              </span>
-		              	}
 		              	{ this.state.types==='Networks' &&
 			              <span>
 			              	<div className="block-center col-lg-2 text-center p20 summary">
@@ -146,6 +171,12 @@ class VesselCore extends React.Component { // (props => {
 		            </div>
 		        </div>
 		    }
+		    { this.props &&
+			        this.props.children && React.cloneElement(this.props.children, Object.assign({}, this.props, {
+			          stateA : this.state,
+			          methods : {labelShips: this.labelShips, unlabelShips:this.unlabelShips, goTo: this.goTo, goToSubpage: this.goToSubpage, goToDetail: this.goToDetail, goToSummary: this.goToSummary, labelSite: this.labelSite, unlabelSite:this.unlabelSite, labelSites: this.labelSites, unlabelSites:this.unlabelSites  },
+        			}))
+			      }
 
 	          </div>
 

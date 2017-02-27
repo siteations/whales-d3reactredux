@@ -1,5 +1,6 @@
 //constants
 export const LOAD_VOYAGES= 'LOAD_VOYAGES';
+export const SET_GEO= 'SET_GEO';
 export const SELECT_VOYAGE='SELECT_VOYAGE';
 export const GENERAL_VOYAGE='GENERAL_VOYAGE';
 export const EXTEND_VOYAGES='EXTEND_VOYAGES';
@@ -31,6 +32,13 @@ export const selectVoyage = (voyage) => {
 	};
 
 };
+
+export const setbaseGeo = (geography) => {
+	return {
+		type: SET_GEO,
+		geography
+	};
+}
 
 export const detailVoyage = (voyage) => {
 
@@ -107,6 +115,8 @@ export const selectSortMthAnimals = (animals) => {
 };
 
 export const selectPlaces = (places) => {
+	//later correct for the lat/long issues
+
 	return {
 		type: SELECT_PLACES,
 		places
@@ -287,6 +297,7 @@ export const filterPlaces = ((allanimals, duration) => { //filters all selected 
 const initState = {
 	voyages : [],
 	currentVoyage : {},
+	baseGeography: {},
 	generalVoyage :false,
 	otherVoyages : [],
 	currentContacts : [],
@@ -313,6 +324,10 @@ export const vesselReducer = (prevState = initState, action) => {
 
 	case SELECT_VOYAGE:
 		newState.currentVoyage = action.voyage;
+		break;
+
+	case SET_GEO:
+		newState.baseGeography = action.geography;
 		break;
 
 	case GENERAL_VOYAGE:

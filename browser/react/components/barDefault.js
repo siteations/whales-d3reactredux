@@ -18,7 +18,7 @@ const D3Default = (({stateO, stateA, methods}) => {
 
   methods holds the mouseOver/Out/link actions
   */
-  //console.log(stateO.MthAnimals);
+  console.log(stateA.contactLabel);
 
   //add svg later...
   d3.select("#core").remove(); // only one update thru store...
@@ -97,7 +97,7 @@ const D3Default = (({stateO, stateA, methods}) => {
             if (voyages.hasOwnProperty(name.Vessel)){
                 type="contactsNames specific";
                 data += ' (click below for summary page)';
-                link = 'vessel/'+voyages[name.Vessel];
+                link = 'vessel/'+voyages[name.Vessel]+'/summary';
             }
 
           return (<g>
@@ -111,7 +111,7 @@ const D3Default = (({stateO, stateA, methods}) => {
           <text className="start white" x={0} y={275/2+27} fill="#ffffff" opacity=".75" >Dates</text>
           <text className="start" x={0} y={275/2} fill="#ffffff" >Places</text>
           <text className="start white" x={0} y={275/2-50} fill="#ffffff" opacity=".75" >Mouseover for info</text>
-          <text className="contactLabel" x={width/2} y={275/2+70} fill="#ffffff" >{stateA.contactLabel}</text>
+          <text className="contactLabel fade1" x={width/2} y={275/2+70} fill="#ffffff" >{stateA.contactLabel}</text>
       </svg>
     </div>
   );

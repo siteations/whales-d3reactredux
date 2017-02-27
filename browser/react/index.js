@@ -4,8 +4,9 @@ import { Router, Route, hashHistory, IndexRedirect, IndexRoute } from 'react-rou
 //--------------------REDUX--------------------
 import { Provider } from 'react-redux';
 import store from '../store.js';
-//--------------------AXIOS--------------------
+//--------------------AXIOS & d3--------------------
 import axios from 'axios';
+import * as d3 from 'd3';
 //--------------------MISC--------------------
 import jquery from 'jquery';
 import bootstrap from 'bootstrap';
@@ -13,11 +14,15 @@ import bootstrap from 'bootstrap';
 //--------------------containers and components---------------
 import startContainer from './containers/startContainer.js';
 import vesselContainer from './containers/vesselContainer.js';
-import vesselGeoContainer from './containers/vesselGeoContainer.js';
+import VesselGeoCore from './components/vesselGeoCore.js';
+import VesselDefaultCore from './components/vesselDefaultCore.js';
 import vesselNetContainer from './containers/vesselNetContainer.js';
 
 //--------------------action-creators--------------------------
-import {loadVoyages, selectVoyage, detailVoyage, generalVoyage, extendVoyage, selectContacts, selectCrew, filterCrew, filterPlaces, selectAnimals, filterAnimals, selectAllAnimals, selectPlaces} from './action-creators/actions.js';
+import {loadVoyages, selectVoyage, detailVoyage, generalVoyage, extendVoyage, setbaseGeo, selectContacts, selectCrew, filterCrew, filterPlaces, selectAnimals, filterAnimals, selectAllAnimals, selectPlaces} from './action-creators/actions.js';
+
+//----------promisify-------------------------
+
 
 
 //--------------------ON ENTER ACTIONS--------------------------
@@ -49,11 +54,13 @@ const onVesselEnter = (nextRouterState) => {
 			const sPlaces = axios.get(`/api/places/${voyage.LogId}`);
 			const sAnimals = axios.get(`/api/animals/${voyage.LogId}`);
 			const sAllAnimals = axios.get(`/api/allanimals/${voyage.LogId}`);
+			const geography = axios.get('/geojson/110m_land.json');
+
 
 			return Promise
-			.all([pVoyage, sCrew, sContacts, sPlaces, sAnimals, sAllAnimals])
+			.all([pVoyage, sCrew, sContacts, sPlaces, sAnimals, sAllAnimals, geography])
 			.then(responses => responses.map(r => r.data))
-			.then(([voyages, crew, contacts, places, animals, allanimals]) => {
+			.then(([voyages, crew, contacts, places, animals, allanimals, geography]) => {
 
 				store.dispatch(filterCrew(crew));
 				store.dispatch(selectContacts(contacts));
@@ -62,6 +69,7 @@ const onVesselEnter = (nextRouterState) => {
 				store.dispatch(selectAnimals(animals));
 				store.dispatch(filterAnimals(allanimals, duration));
 				store.dispatch(selectAllAnimals(allanimals));
+				store.dispatch(setbaseGeo(geography));
 				store.dispatch(loadVoyages(voyages));
 			});
 	});
@@ -75,8 +83,9 @@ ReactDOM.render(
 		<Router history={hashHistory}>
 			<Route path='/' component={startContainer} onEnter={onIndexEnter} />
 			<Route path='/vessel/:id' component={vesselContainer} onEnter={onVesselEnter} >
-				<Route path='/geographies' component={vesselGeoContainer} />
-				<Route path='/networks' component={vesselNetContainer} />
+				<IndexRedirect to="/vessel/:id/summary" />
+				<Route path='/vessel/:id/summary' component={VesselDefaultCore}  />
+				<Route path='/vessel/:id/geographies' component={VesselGeoCore}  />
 			</Route>
 	  </Router>
   </Provider>,

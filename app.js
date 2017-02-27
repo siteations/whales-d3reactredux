@@ -6,11 +6,15 @@ const db = require('./db/index.js').db;
 const Sequelize = require('sequelize');
 
 const express = require('express');
+const fs = require('fs');
+const Promise = require('bluebird');
 const app = express();
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 
 const router = require('./routes/index.js');
+
+const fsP = Promise.promisify(fs.readFile);
 
 const port = 3000;
 
@@ -21,12 +25,22 @@ app.use(express.static('./browser/'));
 app.use(express.static('./public/'));
 app.use(express.static('./public/stylesheets/'));
 app.use(express.static('./public/img/'));
+//app.use(express.static('./public/geojson/'));
 app.use('/jquery', express.static('./node_modules/jquery/dist'));
 app.use('/bootstrap', express.static('./node_modules/bootstrap/dist'));
 
 //add more routes/router later....
 
 app.use('/api', router);
+app.use('/geojson/:file', (req, res, next) => {
+      fsP(`./public/geojson/${req.params.file}`)
+        .then(geojson =>{
+          res.send(geojson);
+        })
+        .catch(err=>{
+          next(err);
+        });
+});
 
 
 //-----------ERROR HANDLING-------------------

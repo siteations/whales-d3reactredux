@@ -23,7 +23,7 @@ export default (({type, content, methods}) => {
 	        <h1 className="aquaL xL">{content}</h1>
             <h5 className="white">{elem.title}</h5>
             <p className="closerB">{elem.subtitle}</p>
-            <p className="contactLabel closerB aqua ital returns" onClick={e => methods(e)} >{elem.link}</p>
+            <p className="closerB aqua ital returns" onClick={e => methods(e)} >{elem.link}</p>
          </div>
 	);
 });
