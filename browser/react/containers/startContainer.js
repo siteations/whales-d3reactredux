@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import start from '../components/start.js';
 
-import {selectVoyage} from '../action-creators/actions.js';
+import {selectVoyage, startingArr } from '../action-creators/actions.js';
 
-const mapStateToProps = (state) => {
+const mapStateToProps = () => {
   return {
-    voyages: state.voyages,
+    voyages: startingArr
   };
 };
 

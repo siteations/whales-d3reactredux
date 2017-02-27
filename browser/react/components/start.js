@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router';
 
 
-export default ({voyages}) => {
+export default ({voyages}, {choice}) => {
 
 console.log(voyages);
 
@@ -25,10 +25,10 @@ console.log(voyages);
                 <h5 className="subtitle">join a voyage</h5>
 
                 <div className="row text-center p20">
-                  <form type="post" >
+                  <form onSubmit={(e => {e.preventDefault(); console.log(e);})} >
                     <select className="voyageSelect" name="voyage">
                       {voyages && voyages.map(voyage=> {
-                        <option className="text-center" value={voyage.logId}>The {voyage.Vessel} of {voyage.Start}</option>
+                        return <option className="text-center" value={voyage.id}>The {voyage.Vessel} of {voyage.Start}</option>
                         })
                       }
                     </select>
