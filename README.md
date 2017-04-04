@@ -1,6 +1,5 @@
 # Call Me Ishmael
 Multi-page data-visualization of 19th century whaling journeys
-Built with: React, Redux, d3, RegEx, Sequelize, Express, Node, HTML/CSS, webpack
 
 ### Includes:
 * RegEx-based parsing program to translate ships’ logs for database seeding and api access, 
