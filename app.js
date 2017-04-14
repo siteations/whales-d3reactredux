@@ -58,8 +58,8 @@ app.use('/', (err, req, res, next) =>{
         'status':err.status,
         'stack':err.stack,
     }
-    //res.send(error);
-    res.render('error.html', {error:error});
+    res.send(error);
+    //res.render('error.html', {error:error});
 });
 
 //-----------DATABASE & CONNECTION SYNC-------------------
@@ -68,8 +68,8 @@ var database = db.sync() // for queries only...
 .then(()=> {
 
 	app.listen(process.env.PORT || 3000, function(){
-  console.log('listening on', process.env);
-});
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+  });
 });
 
 
