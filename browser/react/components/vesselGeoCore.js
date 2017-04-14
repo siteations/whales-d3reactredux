@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import PanelsVLeft from '../components/panelsVLeft';
-import PanelsVRight from '../components/panelsVRight';
-import Header from '../components/header.js';
-import Summary from '../components/summary.js';
+// import PanelsVLeft from '../components/panelsVLeft';
+// import PanelsVRight from '../components/panelsVRight';
+// import Header from '../components/header.js';
+// import Summary from '../components/summary.js';
 import D3Default from '../components/barDefault.js';
 import D3Geo from '../components/geoDefault.js';
 import { hashHistory } from 'react-router';

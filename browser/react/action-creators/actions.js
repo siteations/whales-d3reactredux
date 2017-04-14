@@ -50,7 +50,6 @@ export const detailVoyage = (voyage) => {
 	voyage.Dates = dates;
 	voyage.Length = dates.length;
 
-
 	return dispatch => {
 		dispatch(selectVoyage(voyage));
 	};
