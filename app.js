@@ -16,7 +16,7 @@ const router = require('./routes/index.js');
 
 const fsP = Promise.promisify(fs.readFile);
 
-const port = 3000;
+//const port = 3000;
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -67,10 +67,9 @@ app.use('/', (err, req, res, next) =>{
 var database = db.sync() // for queries only...
 .then(()=> {
 
-	app.listen(3000, ()=>{
-	    console.log('listening at '+port);
-	    console.log(' db synced, top-confirmation');
-	});
+	app.listen(process.env.PORT || 3000, function(){
+  console.log('listening on', process.env);
+});
 });
 
 
