@@ -23272,7 +23272,7 @@ var D3Default = function D3Default(_ref) {
     contactLabel
    methods holds the mouseOver/Out/link actions
   */
-  console.log(stateA.contactLabel);
+  //console.log(stateA.contactLabel);
 
   //add svg later...
   d3.select("#core").remove(); // only one update thru store...
@@ -62379,7 +62379,7 @@ var onVesselEnter = function onVesselEnter(nextRouterState) {
 		voyageId = 1;
 	};
 
-	console.log(voyageId);
+	console.log('voyageid ', voyageId);
 
 	var sVoyage = _axios2.default.get('/api/vessels/' + voyageId).then(function (response) {
 		return response.data;
@@ -62433,7 +62433,7 @@ _reactDom2.default.render(_react2.default.createElement(
 			_reactRouter.Route,
 			{ path: '/', component: _vesselContainer2.default, onEnter: onVesselEnter },
 			_react2.default.createElement(_reactRouter.IndexRedirect, { to: '/vessel/-/summary' }),
-			_react2.default.createElement(_reactRouter.Route, { path: '/vessel/:id/summary', component: _vesselDefaultCore2.default }),
+			_react2.default.createElement(_reactRouter.Route, { path: '/vessel/:id/summary', component: _vesselDefaultCore2.default, onEnter: onVesselEnter }),
 			_react2.default.createElement(_reactRouter.Route, { path: '/vessel/:id/geographies', component: _vesselGeoCore2.default })
 		),
 		_react2.default.createElement(

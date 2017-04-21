@@ -18,7 +18,7 @@ const D3Default = (({stateO, stateA, methods}) => {
 
   methods holds the mouseOver/Out/link actions
   */
-  console.log(stateA.contactLabel);
+  //console.log(stateA.contactLabel);
 
   //add svg later...
   d3.select("#core").remove(); // only one update thru store...

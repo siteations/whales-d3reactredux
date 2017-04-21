@@ -44,7 +44,7 @@ const onVesselEnter = (nextRouterState) => {
 		voyageId = nextRouterState.params.id;
 	} else { voyageId = 1; };
 
-		console.log(voyageId);
+		console.log('voyageid ', voyageId);
 
 	const sVoyage = axios.get(`/api/vessels/${voyageId}`)
 		.then(response => response.data)
@@ -89,7 +89,7 @@ ReactDOM.render(
 			{/*<Route path='/' component={startContainer} onEnter={onIndexEnter} />*/}
 			<Route path='/' component={vesselContainer} onEnter={onVesselEnter} >
 				<IndexRedirect to="/vessel/-/summary" />
-				<Route path='/vessel/:id/summary' component={VesselDefaultCore}  />
+				<Route path='/vessel/:id/summary' component={VesselDefaultCore} onEnter={onVesselEnter} />
 				<Route path='/vessel/:id/geographies' component={VesselGeoCore}  />
 			</Route>
 			<Route path='/vessel/:id' component={vesselContainer} onEnter={onVesselEnter} >
