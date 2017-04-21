@@ -62372,7 +62372,12 @@ var onIndexEnter = function onIndexEnter() {
 };
 
 var onVesselEnter = function onVesselEnter(nextRouterState) {
-	var voyageId = nextRouterState.params.id;
+	var voyageId = void 0;
+	if (nextRouterState.params.id !== undefined) {
+		voyageId = nextRouterState.params.id;
+	} else {
+		voyageId = 1;
+	};
 
 	var sVoyage = _axios2.default.get('/api/vessels/' + voyageId).then(function (response) {
 		return response.data;

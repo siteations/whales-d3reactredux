@@ -39,7 +39,10 @@ const onIndexEnter = () => {
 };
 
 const onVesselEnter = (nextRouterState) => {
-	const voyageId = nextRouterState.params.id;
+	let voyageId;
+	if (nextRouterState.params.id !== undefined){
+		voyageId = nextRouterState.params.id;
+	} else { voyageId = 1; };
 
 	const sVoyage = axios.get(`/api/vessels/${voyageId}`)
 		.then(response => response.data)
