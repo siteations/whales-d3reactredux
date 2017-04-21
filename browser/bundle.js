@@ -62373,11 +62373,13 @@ var onIndexEnter = function onIndexEnter() {
 
 var onVesselEnter = function onVesselEnter(nextRouterState) {
 	var voyageId = void 0;
-	if (nextRouterState.params.id !== undefined) {
+	if (nextRouterState.params.id !== '-') {
 		voyageId = nextRouterState.params.id;
 	} else {
 		voyageId = 1;
 	};
+
+	console.log(voyageId);
 
 	var sVoyage = _axios2.default.get('/api/vessels/' + voyageId).then(function (response) {
 		return response.data;
@@ -62430,7 +62432,7 @@ _reactDom2.default.render(_react2.default.createElement(
 		_react2.default.createElement(
 			_reactRouter.Route,
 			{ path: '/', component: _vesselContainer2.default, onEnter: onVesselEnter },
-			_react2.default.createElement(_reactRouter.IndexRedirect, { to: '/vessel//summary' }),
+			_react2.default.createElement(_reactRouter.IndexRedirect, { to: '/vessel/-/summary' }),
 			_react2.default.createElement(_reactRouter.Route, { path: '/vessel/:id/summary', component: _vesselDefaultCore2.default }),
 			_react2.default.createElement(_reactRouter.Route, { path: '/vessel/:id/geographies', component: _vesselGeoCore2.default })
 		),
