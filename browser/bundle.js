@@ -62430,7 +62430,7 @@ _reactDom2.default.render(_react2.default.createElement(
 		_react2.default.createElement(
 			_reactRouter.Route,
 			{ path: '/', component: _vesselContainer2.default, onEnter: onVesselEnter },
-			_react2.default.createElement(_reactRouter.IndexRedirect, { to: '/vessel/1/summary' }),
+			_react2.default.createElement(_reactRouter.IndexRedirect, { to: '/vessel//summary' }),
 			_react2.default.createElement(_reactRouter.Route, { path: '/vessel/:id/summary', component: _vesselDefaultCore2.default }),
 			_react2.default.createElement(_reactRouter.Route, { path: '/vessel/:id/geographies', component: _vesselGeoCore2.default })
 		),
