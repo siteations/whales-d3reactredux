@@ -86,7 +86,7 @@ ReactDOM.render(
 		<Router history={hashHistory}>
 			{/*<Route path='/' component={startContainer} onEnter={onIndexEnter} />*/}
 			<Route path='/' component={vesselContainer} onEnter={onVesselEnter} />
-			<IndexRedirect to="/vessel/1" />
+			<IndexRedirect to="/vessel/1/summary" />
 			<Route path='/vessel/:id' component={vesselContainer} onEnter={onVesselEnter} >
 				<IndexRedirect to="/vessel/:id/summary" />
 				<Route path='/vessel/:id/summary' component={VesselDefaultCore}  />
